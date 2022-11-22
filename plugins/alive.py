@@ -35,22 +35,29 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/72b8500b85d0c4798c6d5.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
+🥀 𝐇𝐞𝐥𝐥𝐨, 𝐈 𝐀𝐦 𝐀𝐧 📀 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐀𝐧𝐝
+𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 𝐕𝐂 𝐏𝐥𝐚𝐲𝐞𝐫 » 𝐅𝐨𝐫 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦
+𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐀𝐧𝐝 𝐆𝐫𝐨𝐮𝐩𝐬 ✨ ...
+
+💐 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐓𝐨: 🕊️ 𝐀𝐝𝐝 𝐌𝐞 𝐢𝐧 𝐘𝐨𝐮𝐫
+𝐆𝐫𝐨𝐮𝐩 🌺 𝐀𝐧𝐝 𝐄𝐧𝐣𝐨𝐲 🌿 𝐒𝐮𝐩𝐞𝐫 𝐇𝐢𝐠𝐡
+𝐐𝐮𝐚𝐥𝐢𝐭𝐲 𝐀𝐮𝐝𝐢𝐨 𝐀𝐧𝐝 𝐕𝐢𝐝𝐞𝐨 🌷 ...
+💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ 𝐒ᴜᴘᴇʀ Ғᴀ𝐬ᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞](https://t.me/{OWNER_NAME})
-┣★ ᴜᴘᴅᴀᴛᴇs : [𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞](https://t.me/{UPDATES_CHANNEL})
-┣★ sᴜᴘᴘᴏʀᴛ : [𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞](https://t.me/{GROUP_SUPPORT})
+┣★ ᴄʀᴇᴀᴛᴏʀ : [𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞](https://t.me/royal_boy_amit)
+┣★ ᴜᴘᴅᴀᴛᴇ𝐒 : [𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞](https://t.me/royalkifeelings)
+┣★ 𝐒ᴜᴘᴘᴏʀᴛ : [𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞](https://t.me/royalkifeelings12)
 ┗━━━━━━━━━━━━━━━━━┛
 
-💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ
-ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/{OWNER_NAME}) ...
+💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇ𝐒ᴛɪᴏɴ𝐒 ᴛʜᴇɴ
+ᴅᴍ ᴛᴏ ᴍʏ [ʟᴇɢᴇɴᴅ ᴏᴡɴᴇʀ](https://t.me/royal_boy_amit) ...
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/{UPDATES_CHANNEL}")
+                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ Ғᴏʀ ᴜᴘᴅᴀᴛᴇ𝐒 ❱ ➕", url=f"https://t.me/royalkifeelings")
                 ]
                 
            ]
