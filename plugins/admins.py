@@ -26,7 +26,7 @@ async def update_admin(client, message):
         new_admins.append(u.user.id)
     admins[message.chat.id] = new_admins
     await message.reply_text(
-        "✅ **Ʌɗɱɩŋ Lɩst Uƥɗɑtɘɗ ...**"
+        "✅ **𝐀𝐝𝐝𝐦𝐢𝐧 𝐋𝐢𝐬𝐭 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐋𝐨𝐚𝐝𝐞𝐝...**"
     )
 
 
@@ -39,11 +39,11 @@ async def skip(c: Client, m: Message):
     if len(m.command) < 2:
         op = await skip_current_song(chat_id)
         if op == 0:
-            await c.send_message(chat_id, "**❌ Ɲøtɦɩŋʛ ɩs Ƈʋrrɘŋtɭy Ƥɭɑyɩŋʛ ...**")
+            await c.send_message(chat_id, "**❌ Ɲø𝐭ɦɩŋʛ ɩ𝐒 Ƈʋ𝐫𝐫ɘŋ𝐭ɭ𝐲 Ƥɭɑ𝐲ɩŋʛ 😛 ...**")
         elif op == 1:
-            await c.send_message(chat_id, "❌ Eɱƥty Qʋɘʋɘ, Lɘɑⱱɩŋʛ VƇ ...")
+            await c.send_message(chat_id, "❌ Eɱƥty Qʋɘʋɘ, Lɘɑⱱɩŋʛ 𝐕Ƈ 😁 ...")
         elif op == 2:
-            await c.send_message(chat_id, "**🗑️ Ƈɭɘɑrɩŋʛ Queues, Lɘɑⱱɩŋʛ VƇ ...**")
+            await c.send_message(chat_id, "**🗑️ Ƈɭɘɑrɩŋʛ Queues, Lɘɑⱱɩŋʛ 𝐕Ƈ 🤣 ...**")
         else:
             buttons = InlineKeyboardMarkup(
             [
