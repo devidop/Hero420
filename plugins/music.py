@@ -115,8 +115,8 @@ async def play(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🥀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ🔥",
-                            url=f"https://t.me/{GROUP_SUPPORT}")
+                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            url=f"https://t.me/royalkifeelings12")
 
                 ]
             ]
@@ -125,7 +125,7 @@ async def play(c: Client, m: Message):
                 await m.reply_photo(
                     photo=image,
                     reply_markup=buttons,
-                    caption=f"**💥 {BOT_NAME}🤞Ʌɗɗɘɗ 💿 Nøω❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{pos}` 🌷 ...**",
+                    caption=f"**💥{BOT_NAME}🤞Ʌɗɗɘɗ 💿 Nøω❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{pos}` 🌷 ...**",
                 )
             else:
                 try:
@@ -148,8 +148,8 @@ async def play(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🥀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ🔥",
-                            url=f"https://t.me/{GROUP_SUPPORT}")
+                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            url=f"https://t.me/royalkifeelings12")
 
                 ]
             ]
@@ -197,8 +197,8 @@ async def play(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🥀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ🔥",
-                            url=f"https://t.me/{GROUP_SUPPORT}")
+                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            url=f"https://t.me/royalkifeelings12")
 
                 ]
             ]
@@ -226,8 +226,8 @@ async def play(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🥀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ🔥",
-                            url=f"https://t.me/{GROUP_SUPPORT}")
+                            text=" 🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            url=f"https://t.me/royalkifeelings12")
 
                 ]
             ]
@@ -275,8 +275,8 @@ async def play(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🥀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ🔥",
-                            url=f"https://t.me/{GROUP_SUPPORT}")
+                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            url=f"https://t.me/royalkifeelings12")
 
                 ]
             ]
@@ -304,8 +304,8 @@ async def play(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🥀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ🔥",
-                            url=f"https://t.me/{GROUP_SUPPORT}")
+                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            url=f"https://t.me/royalkifeelings12")
 
                 ]
             ]
