@@ -9,3 +9,4 @@ OWNER_NAME=royal_boy_amit
 UPDATES_CHANNEL=royalkifeelings
 GROUP_SUPPORT=royalkifeelings12
 AUTO_DOWNLOADS_CLEAR=True
+DURATION_LIMIT=1200
