@@ -33,7 +33,7 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("/start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/72b8500b85d0c4798c6d5.jpg",
+        photo=f"https://telegra.ph//file/c3c80222ce8b0e6f033bc.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 🥀 𝐇𝐞𝐥𝐥𝐨, 𝐈 𝐀𝐦 𝐀𝐧 📀 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐀𝐧𝐝
 𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 𝐕𝐂 𝐏𝐥𝐚𝐲𝐞𝐫 » 𝐅𝐨𝐫 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦
