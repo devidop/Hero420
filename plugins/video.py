@@ -140,8 +140,8 @@ async def vplay(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🥀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ🔥",
-                            url=f"https://t.me/{GROUP_SUPPORT}")
+                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            url=f"https://t.me/royalkifeelings12")
 
                 ]
             ]
@@ -179,8 +179,8 @@ async def vplay(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🥀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ🔥",
-                            url=f"https://t.me/{GROUP_SUPPORT}")
+                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            url=f"https://t.me/royalkifeelings12")
 
                 ]
             ]
@@ -225,8 +225,8 @@ async def vplay(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🥀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ🔥",
-                            url=f"https://t.me/{GROUP_SUPPORT}")
+                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            url=f"https://t.me/royalkifeelings12")
 
                 ]
             ]
@@ -255,8 +255,8 @@ async def vplay(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🥀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ🔥",
-                            url=f"https://t.me/{GROUP_SUPPORT}")
+                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            url=f"https://t.me/royalkifeelings12")
 
                 ]
             ]
@@ -305,8 +305,8 @@ async def vplay(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🥀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ🔥",
-                            url=f"https://t.me/{GROUP_SUPPORT}")
+                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            url=f"https://t.me/royalkifeelings12")
 
                 ]
             ]
@@ -335,8 +335,8 @@ async def vplay(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🥀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ🔥",
-                            url=f"https://t.me/{GROUP_SUPPORT}")
+                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            url=f"https://t.me/royalkifeelings12")
 
                 ]
             ]
@@ -443,8 +443,8 @@ async def vstream(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🥀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ🔥",
-                            url=f"https://t.me/{GROUP_SUPPORT}")
+                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            url=f"https://t.me/royalkifeelings12")
 
                 ]
             ]
@@ -481,8 +481,8 @@ async def vstream(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🥀 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ🔥",
-                            url=f"https://t.me/{GROUP_SUPPORT}")
+                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            url=f"https://t.me/royalkifeelings12")
 
                 ]
             ]
