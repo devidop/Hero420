@@ -1,70 +1,15 @@
 import asyncio
 from pytgcalls import idle
 from modules.clientbot import call_py, bot, user
-from pyrogram.raw.functions.bots import SetBotCommands
-from pyrogram.raw.types import BotCommand, BotCommandScopeDefault
 
 
 async def start_bot():
     await bot.start()
-    print("[INFO]: BOT & UBOT CLIENT STARTED !!")
-    await bot.send(
-    SetBotCommands(
-        scope=BotCommandScopeDefault(),
-        lang_code="en",
-        commands=[
-            BotCommand(
-                command="start",
-                description="Start The Bot"
-            ),
-            BotCommand(
-                command="restart", 
-                description="ONLY BOT OWNER"
-            ),    
-            BotCommand(
-                command="alive",
-                description="Show Alive Message"
-            ),
-            BotCommand(
-                command="play",
-                description="Play Music As Audio"
-            ),
-            BotCommand(
-                command="skip",
-                description="Skip The Current Music"
-            ),
-            BotCommand(
-                command="pause",
-                description="Pause The Current Music"
-            ),
-            BotCommand(
-                command="resume",
-                description="Resume The Paused Music"
-            ),
-            BotCommand(
-                command="cleanup",
-                description="To Clean Music Bot"
-            ),
-            BotCommand(
-                command="join",
-                description="To Invite Music Assistant"
-            ),
-            BotCommand(
-                command="stop",
-                description="Stop Playing The Music"
-            ),
-            BotCommand(
-                command="end",
-                description="End Playing The Music"
-            )
-        ]
-    )
-)
+    print("[INFO]: BOT & UBOT CLIENT STARTED !!")            
     await call_py.start()
     print("[INFO]: PY-TGCALLS CLIENT STARTED !!")
-    await user.join_chat("AboutShailendra")
-    await user.join_chat("HeroOfficialBots")
-    await user.join_chat("Yaaro_ki_yaarii")
+    await user.join_chat("Royalkifeelings")
+    await user.join_chat("Royalkifeelings12")
     await idle()
     print("[INFO]: STOPPING BOT & USERBOT")
     await bot.stop()
