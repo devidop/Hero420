@@ -2,6 +2,9 @@ import os
 from os import getenv
 from dotenv import load_dotenv
 
+if os.path.exists("Internal"):
+   load_dotenv("Internal")
+
 load_dotenv()
 admins = {}
 API_ID = int(getenv("API_ID", "11799230"))
