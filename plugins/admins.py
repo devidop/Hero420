@@ -39,17 +39,17 @@ async def skip(c: Client, m: Message):
     if len(m.command) < 2:
         op = await skip_current_song(chat_id)
         if op == 0:
-            await c.send_message(chat_id, "**❌ Ɲø𝐭ɦɩŋʛ ɩ𝐒 Ƈʋ𝐫𝐫ɘŋ𝐭ɭ𝐲 Ƥɭɑ𝐲ɩŋʛ 😛 ...**")
+            await c.send_message(chat_id, "**❌ 𝐍ø𝐭ɦɩŋʛ 𝐈𝐒 Ƈʋ𝐫𝐫𝐞𝐞ŋ𝐭ɭ𝐲 Ƥɭ𝐚𝐲ɩŋʛ 😛 ...**")
         elif op == 1:
-            await c.send_message(chat_id, "❌ Eɱƥty Qʋɘʋɘ, Lɘɑⱱɩŋʛ 𝐕Ƈ 😁 ...")
+            await c.send_message(chat_id, "❌ 𝐄ɱƥ𝐭𝐲 𝐐ʋɘʋɘ, 𝐋ɘ𝐚ⱱɩŋʛ 𝐕Ƈ 😁 ...")
         elif op == 2:
-            await c.send_message(chat_id, "**🗑️ Ƈɭɘɑrɩŋʛ Queues, Lɘɑⱱɩŋʛ 𝐕Ƈ 🤣 ...**")
+            await c.send_message(chat_id, "**🗑️ 𝐂ɭ𝐞𝐚𝐫ɩŋʛ 𝐐𝐮𝐞𝐮𝐞𝐬, 𝐋𝐞𝐚ⱱɩŋʛ 𝐕Ƈ 🤣 ...**")
         else:
             buttons = InlineKeyboardMarkup(
             [
                 [
                         InlineKeyboardButton(
-                            text="ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ",
+                            text="🚩 𝐉ơıŋ Ćɧaŧ 𝐆řơųק 🚩",
                             url=f"https://t.me/{GROUP_SUPPORT}")
 
                 ]
@@ -63,11 +63,11 @@ async def skip(c: Client, m: Message):
                 chat_id,
                 photo=image,
                 reply_markup=buttons,
-                caption=f"⏭ **Sƙɩƥƥɘɗ Ɲøω Ƥɭɑyɩŋʛ » ** [{op[0]}]({op[1]})\n💭",
+                caption=f"⏭ **𝐒ƙɩƥƥɘɗ Ɲøω Ƥɭ𝐚𝐲ɩŋʛ » ** [{op[0]}]({op[1]})\n💭",
             )
     else:
         skip = m.text.split(None, 1)[1]
-        OP = "🗑 **Ʀɘɱɵⱱɘɗ Sɵŋʛ Frøɱ Qʋɘʋɘ:**"
+        OP = "🗑 **Ʀɘɱɵⱱɘɗ 𝐒ɵŋʛ 𝐅𝐫øɱ 𝐐ʋɘʋɘ:**"
         if chat_id in QUEUE:
             items = [int(x) for x in skip.split(" ") if x.isdigit()]
             items.sort(reverse=True)
@@ -94,11 +94,11 @@ async def stop(client, m: Message):
         try:
             await call_py.leave_group_call(chat_id)
             clear_queue(chat_id)
-            await m.reply("**✅ Ɗɩsƈøŋɘƈtɘɗ Fɤøɱ VƇ ...**")
+            await m.reply("**✅ 𝐃ɩ𝐬ƈøŋɘƈ𝐭ɘɗ 𝐅ɤøɱ 𝐕Ƈ ...**")
         except Exception as e:
             await m.reply(f"🚫 **error:**\n\n`{e}`")
     else:
-        await m.reply("❌ **Ɲøtɦɩŋʛ ɩs Strɘɑɱɩŋʛ ...**")
+        await m.reply("❌ **𝐍ø𝐭ɦɩŋʛ ɩ𝐒 𝐒𝐭𝐫𝐞𝐚ɱɩ𝐧ʛ ...**")
 
 
 @Client.on_message(
@@ -111,12 +111,12 @@ async def pause(client, m: Message):
         try:
             await call_py.pause_stream(chat_id)
             await m.reply(
-                "⏸ **Ƥɑʋsɘɗ ...**"
+                "⏸ **𝐏𝐚ʋ𝐬ɘɗ ...**"
             )
         except Exception as e:
             await m.reply(f"🚫 **error:**\n\n`{e}`")
     else:
-        await m.reply("❌ **Ɲøtɦɩŋʛ ɩs Strɘɑɱɩŋʛ ...**")
+        await m.reply("❌ **𝐍ø𝐭ɦɩŋʛ 𝐈𝐬 𝐒𝐭𝐫𝐞𝐚ɱɩ𝐧ʛ ...**")
 
 
 @Client.on_message(
@@ -129,9 +129,9 @@ async def resume(client, m: Message):
         try:
             await call_py.resume_stream(chat_id)
             await m.reply(
-                "▶️ **Ʀɘsʋɱɘɗ ...**"
+                "▶️ **Ʀɘ𝐬ʋɱɘɗ ...**"
             )
         except Exception as e:
             await m.reply(f"🚫 **error:**\n\n`{e}`")
     else:
-        await m.reply("❌ **Ɲøtɦɩŋʛ ɩs Strɘɑɱɩŋʛ ...**")
+        await m.reply("❌ **Ɲø𝐭ɦɩŋʛ ɩ𝐬 𝐒𝐭𝐫𝐞𝐚ɱɩ𝐧ʛ ...**")
