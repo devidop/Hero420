@@ -57,7 +57,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ Ғᴏʀ ᴜᴘᴅᴀᴛᴇ𝐒 ❱ ➕", url=f"https://t.me/royalkifeelings")
+                        "🦋 𝗝𝗼𝗶𝗻 𝗠𝘆 𝗦𝗲𝗿𝘃𝗲𝗿 🦋", url=f"https://t.me/royalkifeelings")
                 ]
                 
            ]
