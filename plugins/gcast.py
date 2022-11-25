@@ -21,8 +21,8 @@ async def broadcast(_, message: Message):
             try:
                 await aditya.send_message(dialog.chat.id, lmao)
                 sent = sent+1
-                await wtf.edit(f"`🚀Ɓɤøɑɗƈɑstɩŋʛ🚀` \n\n**Sɘŋt Ƭø:** `{sent}` Ƈɦɑts \n**Fɑɩɭɘɗ Iŋ:** {failed} chats")
+                await wtf.edit(f"`🚀 Ɓɤø𝐚ɗƈ𝐚𝐬𝐭ɩŋʛ 🚀` \n\n**:** `{sent}` Ƈɦ𝐚𝐭𝐬 \n**𝐅𝐚ɩɭɘɗ 𝐈ŋ:** {failed} Ƈ𝐡𝐚𝐭𝐬")
                 await asyncio.sleep(3)
             except:
                 failed=failed+1
-        await message.reply_text(f"`🚀Ɠƈɑst Sʋƈƈɘssfʋɭɭy🚀` \n\n**Sɘŋt Ƭø:** `{sent}` Ƈɦɑts \n**Fɑɩɭɘɗ Iŋ:** {failed} Ƈɦɑts")
+        await message.reply_text(f"`🚀 𝐆ƈ𝐚𝐬𝐭 𝐒ʋƈƈɘ𝐬𝐬𝐟ʋɭɭ𝐲 🚀` \n\n**𝐒ɘŋ𝐭 Ƭø:** `{sent}` Ƈ𝐡𝐚𝐭𝐬 \n**𝐅𝐚ɩɭɘɗ 𝐈ŋ:** {failed} Ƈɦ𝐚𝐭𝐬")
