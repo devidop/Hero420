@@ -89,7 +89,7 @@ async def play(c: Client, m: Message):
             )
     if replied:
         if replied.audio or replied.voice:
-            suhu = await replied.reply("📥 **Ɗøωŋɭøɑɗɩŋʛ ...**")
+            suhu = await replied.reply("📥 **Ɗø𝐰ŋɭø𝐚ɗɩŋʛ ...**")
             dl = await replied.download()
             link = replied.link
             
@@ -115,7 +115,7 @@ async def play(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            text="🦋 𝐉ơɪɲ 𝐆ɾơυƥ 🦋",
                             url=f"https://t.me/royalkifeelings12")
 
                 ]
@@ -125,7 +125,7 @@ async def play(c: Client, m: Message):
                 await m.reply_photo(
                     photo=image,
                     reply_markup=buttons,
-                    caption=f"**💥{BOT_NAME}🤞Ʌɗɗɘɗ 💿 Nøω❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{pos}` 🌷 ...**",
+                    caption=f"**💥{BOT_NAME}🤞Ʌɗɗɘɗ 💿 𝐍øω❗️\n🔊 Ʌʈ 💞 Ƥø𝐬ɩʈɩøɳ » `{pos}` 🌷 ...**",
                 )
             else:
                 try:
@@ -133,7 +133,7 @@ async def play(c: Client, m: Message):
                     userid = m.from_user.id
                     thumbnail = f"{IMG_5}"
                     image = await thumb(thumbnail, title, userid)
-                    await suhu.edit("🔄 **Ƥɤøƈɘssɩŋʛ ...**")
+                    await suhu.edit("🔄 **Ƥɤøƈɘ𝐬𝐬ɩŋʛ ...**")
                     await call_py.join_group_call(
                         chat_id,
                         AudioPiped(
@@ -148,7 +148,7 @@ async def play(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            text="🦋 𝐉ơɪɲ 𝐆ɾơυƥ 🦋",
                             url=f"https://t.me/royalkifeelings12")
 
                 ]
@@ -160,7 +160,7 @@ async def play(c: Client, m: Message):
                     await m.reply_photo(
                         photo=image,
                         reply_markup=buttons,
-                        caption=f"**💥 {BOT_NAME}🤞Mʋsɩƈ 🎸 Nøω 💞\n🔊 Ƥɭɑyɩɳʛ 😍 ØƤ 🥀 ...**",
+                        caption=f"**💥 {BOT_NAME}🤞𝐌ʋ𝐬ɩƈ 🎸 𝐍øω 💞\n🔊 Ƥɭ𝐚𝐲ɩɳʛ 😍 ØƤ 🥀 ...**",
                     )
                 except Exception as e:
                     await suhu.delete()
@@ -168,14 +168,14 @@ async def play(c: Client, m: Message):
         else:
             if len(m.command) < 2:
                 await m.reply(
-                    "**🤖 Wɦɑʈ 🙃 Yøʋ 💿 Wɑŋʈ 😍\n💞 Ƭø 🔊 Ƥɭɑy❓ ...**"
+                    "**🤖 𝐖ɦ𝐚ʈ 🙃 𝐘øʋ 💿 𝐖𝐚ŋʈ 😍\n💞 Ƭø 🔊 Ƥɭ𝐚𝐲❓ ...**"
                 )
             else:
-                suhu = await c.send_message(chat_id, "🔍 **Sɘɑɤƈɦɩŋʛ ...**")
+                suhu = await c.send_message(chat_id, "🔍 **𝐒𝐞𝐚ɤƈɦɩŋʛ ...**")
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 if search == 0:
-                    await suhu.edit("❌ **Ɲøʈɦɩŋʛ Føʋŋɗ ...**")
+                    await suhu.edit("❌ **Ɲøʈɦɩŋʛ 𝐅øʋŋɗ ...**")
                 else:
                     songname = search[0]
                     title = search[0]
@@ -197,7 +197,7 @@ async def play(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            text="🦋𝐉ơɪɲ 𝐆ɾơυƥ 🦋",
                             url=f"https://t.me/royalkifeelings12")
 
                 ]
@@ -226,7 +226,7 @@ async def play(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text=" 🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            text=" 🦋 𝐉ơɪɲ 𝐆ɾơυƥ 🦋",
                             url=f"https://t.me/royalkifeelings12")
 
                 ]
@@ -238,7 +238,7 @@ async def play(c: Client, m: Message):
                                 await m.reply_photo(
                                     photo=image,
                                     reply_markup=buttons,
-                                    caption=f"**💥 {BOT_NAME}🤞Mʋsɩƈ 🎸 Nøω 💞\n🔊 Ƥɭɑyɩɳʛ 😍 ØƤ 🥀 ...**",
+                                    caption=f"**💥 {BOT_NAME}🤞𝐌ʋ𝐬ɩƈ 🎸 𝐍øω 💞\n🔊 Ƥɭ𝐚𝐲ɩɳʛ 😍 ØƤ 🥀 ...**",
                                 )
                             except Exception as ep:
                                 await suhu.delete()
@@ -247,14 +247,14 @@ async def play(c: Client, m: Message):
     else:
         if len(m.command) < 2:
             await m.reply(
-                "**🤖 Wɦɑʈ 🙃 Yøʋ 💿 Wɑŋʈ 😍\n💞 Ƭø 🔊 Ƥɭɑy❓ ...**"
+                "**🤖 𝐖ɦ𝐚ʈ 🙃 𝐘øʋ 💿 𝐖𝐚ŋʈ 😍\n💞 Ƭø 🔊 Ƥ𝐥𝐚𝐲❓ ...**"
             )
         else:
-            suhu = await c.send_message(chat_id, "🔍 **Sɘɑɤƈɦɩŋʛ ...**")
+            suhu = await c.send_message(chat_id, "🔍 **𝐒𝐞𝐚ɤƈɦɩŋʛ ...**")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
-                await suhu.edit("❌ **Ɲøʈɦɩŋʛ Føʋŋɗ ...**")
+                await suhu.edit("❌ **Ɲøʈɦɩŋʛ 𝐅øʋŋɗ ...**")
             else:
                 songname = search[0]
                 title = search[0]
@@ -275,7 +275,7 @@ async def play(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            text="🦋 𝐉ơɪɲ 𝐆ɾơυƥ 🦋",
                             url=f"https://t.me/royalkifeelings12")
 
                 ]
@@ -284,11 +284,11 @@ async def play(c: Client, m: Message):
                         await m.reply_photo(
                             photo=image,
                             reply_markup=buttons,
-                            caption=f"**💥 {BOT_NAME}🤞Ʌɗɗɘɗ 💿 Nøω❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{pos}` 🌷 ...**",
+                            caption=f"**💥 {BOT_NAME}🤞Ʌɗɗ𝐞ɗ 💿 𝐍øω❗️\n🔊 Ʌʈ 💞 Ƥø𝐬ɩʈɩøɳ » `{pos}` 🌷 ...**",
                         )
                     else:
                         try:
-                            await suhu.edit("🔄 **Ƥɤøƈɘssɩŋʛ ...**")
+                            await suhu.edit("🔄 **Ƥɤøƈє𝐬𝐬ɩŋʛ ...**")
                             await call_py.join_group_call(
                                 chat_id,
                                 AudioPiped(
@@ -304,7 +304,7 @@ async def play(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            text="🦋 𝐉ơɪɲ 𝐆ɾơυƥ 🦋",
                             url=f"https://t.me/royalkifeelings12")
 
                 ]
@@ -313,7 +313,7 @@ async def play(c: Client, m: Message):
                             await m.reply_photo(
                                 photo=image,
                                 reply_markup=buttons,
-                                caption=f"**💥 {BOT_NAME}🤞Mʋsɩƈ 🎸 Nøω 💞\n🔊 Ƥɭɑyɩɳʛ 😍 ØƤ 🥀 ...**",
+                                caption=f"**💥 {BOT_NAME}🤞𝐌ʋ𝐬ɩƈ 🎸 𝐍øω 💞\n🔊 Ƥɭ𝐚𝐲ɩɳʛ 😍 ØƤ 🥀 ...**",
                             )
                         except Exception as ep:
                             await suhu.delete()
