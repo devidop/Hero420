@@ -104,7 +104,7 @@ async def vplay(c: Client, m: Message):
 
     if replied:
         if replied.video or replied.document:
-            loser = await replied.reply("📥 **Ɗøωŋɭøɑɗɩŋʛ ...**")
+            loser = await replied.reply("📥 **Ɗøωŋɭø𝐚ɗɩŋʛ ...**")
             dl = await replied.download()
             link = replied.link
             if len(m.command) < 2:
@@ -140,7 +140,7 @@ async def vplay(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            text="🦋 𝐉ơɪɲ 𝐆ɾơυƥ 🦋",
                             url=f"https://t.me/royalkifeelings12")
 
                 ]
@@ -149,7 +149,7 @@ async def vplay(c: Client, m: Message):
                 await m.reply_photo(
                     photo=image,
                     reply_markup=buttons,
-                    caption=f"**💥 {BOT_NAME}🤞Vɩɗɘø 💿 Nøω❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{pos}` 🌷 ...**",
+                    caption=f"**💥 {BOT_NAME}🤞𝐕ɩɗɘø 💿 𝐍øω❗️\n🔊 Ʌʈ 💞 Ƥø𝐬ɩʈɩøɳ » `{pos}` 🌷 ...**",
                 )
             else:
                 title = songname
@@ -162,7 +162,7 @@ async def vplay(c: Client, m: Message):
                     amaze = MediumQualityVideo()
                 elif Q == 360:
                     amaze = LowQualityVideo()
-                await loser.edit("🔄 **Ƥɤøƈɘssɩŋʛ ...**")
+                await loser.edit("🔄 **Ƥɤøƈɛ𝐬𝐬ɩŋʛ ...**")
                 await call_py.join_group_call(
                     chat_id,
                     AudioVideoPiped(
@@ -179,7 +179,7 @@ async def vplay(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            text="🦋 𝐉ơɪɲ 𝐆ɾơυƥ 🦋",
                             url=f"https://t.me/royalkifeelings12")
 
                 ]
@@ -188,21 +188,21 @@ async def vplay(c: Client, m: Message):
                 await m.reply_photo(
                     photo=image,
                     reply_markup=buttons,
-                    caption=f"**💥 {BOT_NAME}🤞Vɩɗɘø 🎸 Nøω 💞\n🔊 Ƥɭɑyɩɳʛ 😍 ØƤ 🥀 ...**",
+                    caption=f"**💥 {BOT_NAME}🤞𝐕ɩɗɘø 🎸 𝐍øω 💞\n🔊 Ƥɭɑ𝐲ɩɳʛ 😍 ØƤ 🥀 ...**",
                 )
         else:
             if len(m.command) < 2:
                 await m.reply(
-                    "**🤖 Wɦɑʈ 🙃 Yøʋ 💿 Wɑŋʈ 😍\n💞 Ƭø 🔊 Ƥɭɑy❓ ...**"
+                    "**🤖 𝐖ɦɑʈ 🙃 𝐘øʋ 💿 𝐖ɑŋʈ 😍\n💞 Ƭø 🔊 Ƥɭɑ𝐲❓ ...**"
                 )
             else:
-                loser = await c.send_message(chat_id, "🔍 **Sɘɑɤƈɦɩŋʛ ...**")
+                loser = await c.send_message(chat_id, "🔍 **ṠḕḀɤƈɦɩŋʛ ...**")
                 query = m.text.split(None, 1)[1]
                 search = ytsearch(query)
                 Q = 720
                 amaze = HighQualityVideo()
                 if search == 0:
-                    await loser.edit("❌ **Ɲøʈɦɩŋʛ Føʋŋɗ ...**")
+                    await loser.edit("❌ **Ɲøʈɦɩŋʛ ∱øʋŋɗ ...**")
                 else:
                     songname = search[0]
                     title = search[0]
@@ -225,7 +225,7 @@ async def vplay(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            text="🦋 𝐉ơɪɲ 𝐆ɾơυƥ 🦋",
                             url=f"https://t.me/royalkifeelings12")
 
                 ]
@@ -234,11 +234,11 @@ async def vplay(c: Client, m: Message):
                             await m.reply_photo(
                                 photo=image,
                                 reply_markup=buttons,
-                                caption=f"**💥 {BOT_NAME}🤞Vɩɗɘø 💿 Nøω❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{pos}` 🌷 ...**",
+                                caption=f"**💥 {BOT_NAME}🤞𝐕ɩɗɘø 💿 𝐍øω❗️\n🔊 Ʌʈ 💞 Ƥø𝐬ɩʈɩøɳ » `{pos}` 🌷 ...**",
                             )
                         else:
                             try:
-                                await loser.edit("🔄 **Ƥɤøƈɘssɩŋʛ ...**")
+                                await loser.edit("🔄 **Ƥɤøƈɛ𝐬𝐬ɩŋʛ ...**")
                                 await call_py.join_group_call(
                                     chat_id,
                                     AudioVideoPiped(
@@ -255,7 +255,7 @@ async def vplay(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            text="🦋 𝐉ơɪɲ 𝐆ɾơυƥ 🦋",
                             url=f"https://t.me/royalkifeelings12")
 
                 ]
@@ -264,7 +264,7 @@ async def vplay(c: Client, m: Message):
                                 await m.reply_photo(
                                     photo=image,
                                     reply_markup=buttons,
-                                    caption=f"**💥 {BOT_NAME}🤞Vɩɗɘø 🎸 Nøω 💞\n🔊 Ƥɭɑyɩɳʛ 😍 ØƤ 🥀 ...**",
+                                    caption=f"**💥 {BOT_NAME}🤞𝐕ɩɗɘø 🎸 𝐍øω 💞\n🔊 Ƥɭɑ𝐲ɩɳʛ 😍 ØƤ 🥀 ...**",
                                 )
                             except Exception as ep:
                                 await loser.delete()
@@ -276,13 +276,13 @@ async def vplay(c: Client, m: Message):
                 "» reply to an **video file** or **give something to search.**"
             )
         else:
-            loser = await c.send_message(chat_id, "🔍 **Sɘɑɤƈɦɩŋʛ ...**")
+            loser = await c.send_message(chat_id, "🔍 **𝐒𝐞𝐚ɤƈɦɩŋʛ ...**")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             Q = 720
             amaze = HighQualityVideo()
             if search == 0:
-                await loser.edit("❌ **Ɲøʈɦɩŋʛ Føʋŋɗ ...**")
+                await loser.edit("❌ **Ɲøʈɦɩŋʛ 𝐅øʋŋɗ ...**")
             else:
                 songname = search[0]
                 title = search[0]
@@ -305,7 +305,7 @@ async def vplay(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            text="🦋 𝐉ơɪɲ 𝐆ɾơυƥ 🦋",
                             url=f"https://t.me/royalkifeelings12")
 
                 ]
@@ -314,11 +314,11 @@ async def vplay(c: Client, m: Message):
                         await m.reply_photo(
                             photo=image,
                             reply_markup=buttons,
-                            caption=f"**💥 {BOT_NAME}🤞Vɩɗɘø 💿 Nøω❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{pos}` 🌷 ...**",
+                            caption=f"**💥 {BOT_NAME}🤞𝐕ɩɗɘø 💿 𝐍øω❗️\n🔊 Ʌʈ 💞 Ƥø𝐬ɩʈɩøɳ » `{pos}` 🌷 ...**",
                         )
                     else:
                         try:
-                            await loser.edit("🔄 **Ƥɤøƈɘssɩŋʛ ...**")
+                            await loser.edit("🔄 **Ƥɤøƈɘ𝐬𝐬ɩŋʛ ...**")
                             await call_py.join_group_call(
                                 chat_id,
                                 AudioVideoPiped(
@@ -335,7 +335,7 @@ async def vplay(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            text="🦋 𝐉ơɪɲ 𝐆ɾơυƥ 🦋",
                             url=f"https://t.me/royalkifeelings12")
 
                 ]
@@ -344,7 +344,7 @@ async def vplay(c: Client, m: Message):
                             await m.reply_photo(
                                 photo=image,
                                 reply_markup=buttons,
-                                caption=f"**💥 {BOT_NAME}🤞Vɩɗɘø 🎸 Nøω 💞\n🔊 Ƥɭɑyɩɳʛ 😍 ØƤ 🥀 ...**",
+                                caption=f"**💥 {BOT_NAME}🤞𝐕ɩɗɘø 🎸 𝐍øω 💞\n🔊 Ƥɭ𝐚𝐲ɩɳʛ 😍 ØƤ 🥀 ...**",
                             )
                         except Exception as ep:
                             await loser.delete()
@@ -408,7 +408,7 @@ async def vstream(c: Client, m: Message):
         if len(m.command) == 2:
             link = m.text.split(None, 1)[1]
             Q = 720
-            loser = await c.send_message(chat_id, "🔄 **processing stream...**")
+            loser = await c.send_message(chat_id, "🔄 **𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐒𝐭𝐫𝐞𝐚𝐦...**")
         elif len(m.command) == 3:
             op = m.text.split(None, 1)[1]
             link = op.split(None, 1)[0]
@@ -420,7 +420,7 @@ async def vstream(c: Client, m: Message):
                 await m.reply(
                     "» __only 720, 480, 360 allowed__ \n💡 **now streaming video in 720p**"
                 )
-            loser = await c.send_message(chat_id, "🔄 **Ƥɤøƈɘssɩŋʛ Sʈɤɘɑɱ ...**")
+            loser = await c.send_message(chat_id, "🔄 **Ƥɤøƈɘ𝐬𝐬𝐬ŋʛ 𝐒ʈɤɘ𝐚ɱ ...**")
         else:
             await m.reply("**/vstream {link} {720/480/360}**")
 
@@ -443,7 +443,7 @@ async def vstream(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            text="🦋 𝐉ơɪɲ 𝐆ɾơυƥ 🦋",
                             url=f"https://t.me/royalkifeelings12")
 
                 ]
@@ -452,7 +452,7 @@ async def vstream(c: Client, m: Message):
                 await m.reply_photo(
                     photo=f"{IMG_1}",
                     reply_markup=buttons,
-                    caption=f"**💥 {BOT_NAME}🤞Vɩɗɘø 💿 Nøω❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{pos}` 🌷 ...**",
+                    caption=f"**💥 {BOT_NAME}🤞𝐕ɩɗɘø 💿 𝐍øω❗️\n🔊 Ʌʈ 💞 Ƥø𝐬ɩʈɩøɳ » `{pos}` 🌷 ...**",
                 )
             else:
                 if Q == 720:
@@ -462,7 +462,7 @@ async def vstream(c: Client, m: Message):
                 elif Q == 360:
                     amaze = LowQualityVideo()
                 try:
-                    await loser.edit("🔄 **Jøɩŋƞɩɳʛ VƇ ...**")
+                    await loser.edit("🔄 **𝐉øɩŋƞɩɳʛ 𝐕Ƈ ...**")
                     await call_py.join_group_call(
                         chat_id,
                         AudioVideoPiped(
@@ -481,7 +481,7 @@ async def vstream(c: Client, m: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="🦋 𝐉𝐨𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 🦋",
+                            text="🦋 𝐉ơɪɲ 𝐆ɾơυƥ 🦋",
                             url=f"https://t.me/royalkifeelings12")
 
                 ]
@@ -490,7 +490,7 @@ async def vstream(c: Client, m: Message):
                     await m.reply_photo(
                         photo=f"{IMG_2}",
                         reply_markup=buttons,
-                        caption=f"**💥 {BOT_NAME}🤞Vɩɗɘø 🎸 Nøω 💞\n🔊 Ƥɭɑyɩɳʛ 😍 ØƤ 🥀 ...**",
+                        caption=f"**💥 {BOT_NAME}🤞𝐕ɩɗɘø 🎸 𝐍øω 💞\n🔊 Ƥɭ𝐚𝐲ɩɳʛ 😍 ØƤ 🥀 ...**",
                     )
                 except Exception as ep:
                     await loser.delete()
