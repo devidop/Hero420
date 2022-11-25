@@ -15,9 +15,9 @@ async def clear_downloads(_, message: Message):
     if ls_dir:
         for file in os.listdir(downloads):
             os.remove(os.path.join(downloads, file))
-        await message.reply_text("✅ **deleted all downloaded files**")
+        await message.reply_text("✅ **𝐃𝐞𝐥𝐞𝐭𝐞𝐝 𝐀𝐥𝐥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 𝐅𝐢𝐥𝐞𝐬**")
     else:
-        await message.reply_text("❌ **no files downloaded**")
+        await message.reply_text("❌ **𝐍𝐨 𝐅𝐢𝐥𝐞𝐬 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝**")
 
         
 @Client.on_message(command(["rmw", "clean"]) & ~filters.edited)
@@ -28,9 +28,9 @@ async def clear_raw(_, message: Message):
     if ls_dir:
         for file in os.listdir(raw_files):
             os.remove(os.path.join(raw_files, file))
-        await message.reply_text("✅ **deleted all raw files**")
+        await message.reply_text("✅ **𝐃𝐞𝐥𝐞𝐭𝐞𝐝 𝐀𝐥𝐥 𝐑𝐚𝐰 𝐅𝐢𝐥𝐞𝐬**")
     else:
-        await message.reply_text("❌ **no raw files**")
+        await message.reply_text("❌ **𝐍𝐨 𝐑𝐚𝐰 𝐅𝐢𝐥𝐞𝐬**")
 
 
 @Client.on_message(command(["cl", "cleanup"]) & ~filters.edited)
@@ -40,6 +40,6 @@ async def cleanup(_, message: Message):
     if ls_dir:
         for dta in os.listdir(pth):
             os.system("rm -rf *.webm *.jpg")
-        await message.reply_text("✅ **cleaned**")
+        await message.reply_text("✅ **Ƈ𝐥ҽ𝐚ɳҽԃ**")
     else:
-        await message.reply_text("✅ **already cleaned**")
+        await message.reply_text("✅ **Α𝐥𝐫𝐞𝐚𝐝𝐲 Ƈ𝐥𝐞𝐚𝐧𝐞𝐝**")
